@@ -1,0 +1,271 @@
+
+main{
+ width: 100%;
+ margin: 0 auto;
+ background-color: #D5D7D9;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #020814;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    color: #fff;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color:#19F4E7;
+    border-color: #19F4E7;
+}
+
+.btn-outline-success {
+    color: #19F4E7;
+    border-color: #19F4E7;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 15%;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  opacity: 0.0;
+  transition: 0.15s ease;
+}
+
+.bg-preto {
+    background-color: #020814 !important;
+}
+
+.carousel-control-next-icon{
+    background-color: #D5D7D9;
+}
+
+.carousel-control-prev-icon{
+    background-color: #D5D7D9;
+}
+
+.a1{
+    margin-left: 5px;
+}
+
+.img{
+    width: 100px;
+    height: 500px;
+}
+
+.car1{
+    height: 300px;
+    background-color: #19F4E7;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.art{
+    width: 300px;
+    height: 350px;
+    background-color: #19F4E7;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.but{
+    width: 100px;
+    border-radius: 20px;
+    background-color:  #020814;
+    margin-left: 100px;
+}
+
+.img2{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.img4{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+.img5{
+    margin-left: 500px;
+    width: 60px;
+    height: 60px;
+}
+
+.img6{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+.efeito_6{
+    width: 100px;
+    background-color: darkcyan;
+    transform-style: preserve-3d;
+}
+
+.btns{
+    text-align: center;
+}
+
+.efeito{
+    border: none;
+    color:#ffffff;
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.efeito_6:after{
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background-color: darkcyan;
+    border-radius:  10px;
+    box-sizing: border-box;
+    content:'IR';
+    transform-origin: left  bottom;
+    transform: rotateX(90deg);
+}
+
+.efeito_6:hover{
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}
+
+.img1{
+    width: 1100px;
+    height: 500px;
+}
+
+.img-2{
+    display: none;
+}
+
+#art1{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+#nav1{
+    width: 1300px;
+    height: 70px;
+    margin: 0 auto;
+    background-color: #020814;
+    margin: 0 auto;
+}
+
+#sec1{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+#img{
+    width: 200px;
+    height: 200px;
+}
+
+#check{
+    width: 150px;
+    height: 150px;
+}
+
+#logo{
+    width: 200px;
+    height: 200px;
+}
+
+#nav{
+    width: 100%;
+}
+
+/* medidas 320px de width para movel */
+
+@media(max-width:320px){
+    #carro1{
+        display: none;
+    }
+}
+
+@media(max-width:800px){
+    .img-2{
+        display: inline;
+        width: 300px;
+        height: 400px;
+        margin: 0 auto;
+        margin-left: 10px;
+    }
+}
+
+@media(max-width:800px){
+    #sec1{
+        width: 320px;
+        display: flex;
+        flex-flow: column nowrap
+    };
+    
+}
+
+@media(max-width:800px){
+    .art{
+            width: 250px;
+            margin: 0 auto;
+            margin-top: 10px;
+            margin-bottom:10px;
+        }
+}
+
+@media(max-width:800px){
+    footer{
+        width: 320px;
+    };
+}
+   
+@media(max-width: 800px){
+    .img5{
+        display:none;
+    }
+}
+
+@media(max-width:800px){
+    .img4{
+        width: 30px;
+        height: 30px;
+        margin-left: 10px
+    }
+}
+
+@media(max-width:800px){
+    #logo{
+        width:180px;
+        height:180px;
+    }
+}

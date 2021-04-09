@@ -1,0 +1,158 @@
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #020814;
+}
+
+nav {
+    width: 100%;
+    background-color: #19F4E7;
+}
+
+.pontos { 
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.check {
+    width: 100px;
+    height: 100px;
+   
+}
+
+
+.star {
+    width: 50px;
+    height: 50px;
+  
+}
+
+
+.fonte {
+    text-align: left;
+    color: black;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+
+
+.imgg {
+    width: 50px;
+    height: 50px;
+    
+}
+
+.divg {
+    border: solid #19F4E7 !important;
+    background-color: #19F4E7 ;
+    color: black;
+}
+
+.div2 {
+    z-index: 1; /*z-index: 2,3,4 irá empilhar divs*/
+}
+
+.prem { 
+  width: 550px;   
+  height: 200px;
+  margin-left: 10px;
+  margin-right: 10px;    
+       /*lembra de colocar borda*/
+}
+
+
+.desaf {
+    width: 700px;   
+    height: 550px;
+
+}
+
+.premia {
+    display: flex;
+    border-radius: 50rem;
+}
+
+
+
+
+#diva {
+    width: 1330px;
+    height: 55px;
+}
+
+#divb {
+    display: flex;
+    align-items: right;
+    width: 1000px;
+    
+}
+
+#divc {
+    background-color:  #020814;
+    color: white;
+    width: 50px;
+    height: 45px;
+    border: 2px solid #19F4E7;
+    
+}
+
+#kingsection {
+    display: flex;
+    color: black;
+}
+
+#secp {
+    height: 1000px;
+    width: 600px;
+    margin-top: 15px;
+    padding: 5px;
+    margin-right: 0%;
+    margin-left: 10px;
+    color: black;
+}
+
+#secq { 
+    margin-left: 25px;
+    width: 65%;
+    
+}
+
+
+
+@media(max-width: 800px) {
+    .prem {margin-right: auto;margin-left: auto;width: 80%;}
+    #divb {margin: 0%;}
+    .check {margin-left: 400px;}
+    #premia {width: 200px;}
+}
+
+
+
+
+@media(max-width: 800px) {
+ 
+  #divb {margin: 0%; width: 20%;}
+  #kingsection {display: inline-block;}
+  #secp {width: 700px; }
+  .prem {margin-right: auto;margin-left: auto; width: 100%;}
+  #secq {width: 320px;border-radius: 50rem !important;}
+  .desaf {width: 300px; font-size: 8px;}
+  .check {margin-left: 0px;}
+  
+
+}
+
+@media(max-width: 800px) {
+    #secp {width: 320px;}
+    #secq {width: 300px;}
+    article {width: 300px;}
+    #check {margin-left: 0;}
+    .premia{width: 100%;} 
+    #diva{width: 320px;}
+}

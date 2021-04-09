@@ -1,0 +1,286 @@
+
+   footer{
+       width: 100%;
+       background-color: #020814;
+       padding: 10px;
+       display: flex;
+       flex-flow: row wrap;
+       color: #D5D7D9;
+   }
+
+   label{
+       color:lavender;
+   }
+
+   input{
+       width: 100px;
+       height: 30px;
+   }
+
+   form{
+       width: 100px;
+       display:flex;
+       flex-flow: row wrap;
+   }
+   
+   .bg-preto {
+       background-color: #020814 !important;
+   }
+   
+   .carousel-indicators>li{
+       background-color: #D5D7D9;
+   }
+   
+   .carousel-control-next-icon{
+       background-color: #D5D7D9;
+   }
+   
+   .carousel-control-prev-icon{
+       background-color: #D5D7D9;
+   }
+   
+   .a1{
+       margin-left: 5px;
+   }
+   
+   .car1{
+       height: 300px;
+       background-color: #19F4E7;
+       margin: 30px;
+       border-radius: 20px;
+   }
+   
+   .art{
+       width: 300px;
+       height: 300px;
+       background-color: #19F4E7;
+       border-radius: 20px;
+       margin: 20px;
+       text-align: center;
+       padding-top: 10px;
+   }
+   
+   .but{
+       width: 100px;
+       border-radius: 20px;
+       background-color:  #020814;
+       margin-left: 100px;
+   }
+   
+   .img2{
+       width: 50px;
+       height: 50px;
+       margin: 5px;
+   }
+   
+   .img4{
+       width: 60px;
+       height: 60px;
+       margin: 5px;
+   }
+   
+   .img5{
+       margin-left: 10px;
+       width: 60px;
+       height: 60px;
+   }
+   
+   .artp{
+       width: 450px;
+       height: 400px;
+       margin-left: 30px;
+       margin-top: 20px;
+   }
+
+   .textopitch{
+       padding-left: 50px;
+       margin-top: 30px;
+   }
+
+   #sec2{
+    width: 100%;
+    background-color: #e4fff2;
+  }
+  
+  #artcard{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .img-card{
+    width: 200px;
+    height: 200px;
+  }
+  
+  .flip-card {
+    background-color:#ffff ;
+    width: 270px;
+    height: 300px;
+    align-items: center;
+    border: 4px solid #19F4E7;
+    border-radius: 20px;
+    perspective: 1000px;
+    margin: 10px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  } 
+  
+  .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color:#19F4E7;
+    color: black;
+    border-radius: 15px;
+  }
+    
+  .flip-card-back {
+    background-color:#19F4E7;
+    color: black;
+    transform: rotateY(180deg);
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+   #imgp{
+       margin-left: 700px;
+   }
+
+   #secp{
+        height: 500px;
+        color: blanchedalmond;
+        display: flex;
+        flex-flow: row nowrap;
+        background-color: #020814;
+   }
+
+   #vid{
+       width: 550px;
+       height: 400px;
+       margin-left: 200px;
+   }
+
+   #art1{
+       display: flex;
+       flex-flow: row wrap;
+       text-align: center;
+       justify-content: center;
+   }
+   
+   #nav1{
+       width: 1300px;
+       height: 70px;
+       margin: 0 auto;
+       background-color: #020814;
+       margin: 0 auto;
+   }
+   
+   #sec1{
+       display: flex;
+       flex-flow: row wrap;
+       justify-content: center;
+   }
+   
+   #img{
+       width: 200px;
+       height: 200px;
+   }
+   
+   #check{
+       width: 150px;
+       height: 150px;
+   }
+   
+   #logo{
+       width: 200px;
+       height: 200px;
+   }
+   
+   #nav{
+       width: 100%;
+   }
+
+   #check{
+       width: 150px;
+       height: 150px;
+   }
+
+   #h1_footer{
+       color: #D5D7D9;
+   }
+   /* medidas 320px de width para movel */
+   
+   
+   @media(max-width:800px){
+       #sec1{
+           width: 320px;
+           display: flex;
+           flex-flow: column nowrap
+       };
+       
+   }
+   
+   @media(max-width:800px){
+       .art{
+               width: 250px;
+               margin: 0 auto;
+               margin-top: 10px;
+               margin-bottom:10px;
+           }
+   }
+   
+   @media(max-width:800px){
+       footer{
+           width: 320px;
+       };
+   }
+      
+   @media(max-width: 800px){
+       .img5{
+           display:none;
+       }
+   }
+   
+   @media(max-width:800px){
+       .img4{
+           width: 30px;
+           height: 30px;
+           margin-left: 10px
+       }
+   }
+   
+   @media(max-width:800px){
+       #logo{
+           width:180px;
+           height:180px;
+       }
+   }
+
+   @media(max-width:800px){
+       #artp1{
+           width: 270px;
+           height: 100px;
+       }
+   }
+
+   @media(max-width:800px){
+       #artp2{display:none;}
+   }

@@ -1,0 +1,79 @@
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+
+main {
+    width: 100%;
+} 
+
+nav {
+    width: 100%;
+    background-color: #19F4E7
+}
+
+section {
+    height: 1000px;
+    width: 100%;
+    background-color: #020814;
+}
+
+#ouro {
+    width: 501px; height: 30px; color: black; background-color:  #FFE664;
+}
+
+#prata {
+    width: 501px; height: 30px; color: black; background-color:  #E5D5D5;
+}
+
+#bronze {
+    width: 501px; height: 30px; color: black; background-color:  #DE8C50;
+}
+
+.babyblue {
+    width: 501px; height: 30px; color: black; background-color:  #19F4E7;
+}
+
+
+.section1 {
+    display: flex;
+    flex-flow: column nowrap; 
+    text-align: center;
+    align-items: center;
+}
+
+.trinta {
+    width: 30px;
+    height: 30px;
+}
+
+.img1 {
+    width: 60px;
+    height: 60px;
+}
+
+.img2 {
+    width: 50px;
+    height: 50px;
+}
+
+.btn-outline-info {
+    color: #19F4E7;
+    border-color: #19F4E7; }
+
+.acesso {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.ranking {
+    color: #19F4E7;
+}
+
+.medalhas {
+    width: 40px;
+    height: 30px;
+}
+
+
+

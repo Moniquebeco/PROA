@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #020814;
+}
+
+.bg-azul {
+    background-color: #19F4E7 !important;
+}
+
+.p{
+    height: 10px;
+    color: black;
+}
+
+.p:hover{
+    color: blanchedalmond;
+}
+
+#img{
+    width: 36px;
+    height: 36px;
+    margin: 0 auto;
+}
+
+#sec1{
+    width: 1100px;
+    height: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#vid{
+    width: 800px;
+    height: 500px;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+#art2{
+    width: 200px;
+    height: 300px;
+    background-color: #19F4E7;
+    text-align: center;
+    margin-top: 60px;
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 20px;
+}
+
+#img_livro{
+    width: 200px;
+    height: 150px;
+    margin-left: 5px;
+}
+
+#bnt_ir1{
+    width: 100px;
+    height: 30px;
+    margin-left: 55px;
+}
+
+#h4_pdf{
+    margin-top: 10px;
+}
+
+#art3{
+    width: 200px;
+    height: 120px;
+    background-color: #19F4E7;
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    flex-flow: column nowrap;
+    border-radius: 20px;
+}
+
+#h3_desa{
+    margin-top: 10px;
+}
+
+#div1{
+    width: 800px;
+    height: 150px;
+    margin-left: 165px;
+    margin-top: 20px;
+    background-color: #19F4E7;
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 20px;
+    align-items:flex-start;
+    text-align: start;
+}
+
+#img2{
+    width: 150px;
+    height: 150px;
+}
+
+#h3_donw{
+    margin-top: 20px;
+}
+
+@media(max-width: 800px){
+    main{
+        width: 320px;
+        height: 810px;
+    }
+}
+
+@media(max-width:800px){
+    #sec1{
+        width: 320px;
+        height: 550px;
+        display: flex;
+        flex-flow: column wrap;
+    }
+}
+
+@media(max-width:800px){
+    #vid{
+        width: 250px;
+        height: 300px;
+    }
+}
+
+@media(max-width:380px){
+    #art2{
+        display: none;
+    }
+}
+
+@media(max-width:800px){
+    #art3{
+        margin-left: 60px;
+    }
+}
+
+@media(max-width:800px){
+    #div1{
+        width: 250px;
+        height: 250px;
+        background-color: #19F4E7;
+        display: flex;
+        flex-flow: column nowrap;
+        border-radius: 20px;
+        margin-left: 40px;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media(max-width:800px){
+    #img2{
+        display:none;
+    }
+}
+
+@media(max-width:800px){
+    #h3_donw{
+        margin-left: 40px;
+    }
+}

@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #020814;
+}
+
+.bg-azul {
+    background-color: #19F4E7 !important;
+}
+
+.p{
+    height: 10px;
+    color: black;
+}
+
+.p:hover{
+    color: blanchedalmond;
+}
+
+.img2{
+    width: 50px;
+    height: 50px;
+}
+
+.btns{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.efeito{
+    border: none;
+    color:#ffffff;
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.efeito_6{
+    width: 150px;
+    height: 60px;
+    background-color: #3a9999;
+    transform-style: preserve-3d;
+    margin-top: 120px;
+    margin-left: 200px;
+}
+
+.efeito_6:after{
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background-color: #3a9999;
+    border-radius:  10px;
+    box-sizing: border-box;
+    content:'Escape School';
+    transform-origin: left  bottom;
+    transform: rotateX(90deg);
+}
+
+.efeito_6:hover{
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}
+
+.efeito_6_1{
+    width: 150px;
+    height: 60px;
+    background-color: #3a9999;
+    transform-style: preserve-3d;
+    margin-top: 120px;
+    margin-left: 200px;
+}
+
+.efeito_6_1:after{
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background-color: #3a9999;
+    border-radius:  10px;
+    box-sizing: border-box;
+    content:'Jogo da memória';
+    transform-origin: left  bottom;
+    transform: rotateX(90deg);
+}
+
+.efeito_6_1:hover{
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}
+
+.efeito_6_2{
+    width: 150px;
+    height: 60px;
+    background-color: #3a9999;
+    transform-style: preserve-3d;
+    margin-top: 120px;
+    margin-left: 200px;
+}
+
+.efeito_6_2:after{
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background-color: #3a9999;
+    border-radius:  10px;
+    box-sizing: border-box;
+    content:'Jogo Numpuz';
+    transform-origin: left  bottom;
+    transform: rotateX(90deg);
+}
+
+.efeito_6_2:hover{
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}
+
+.efeito_5{
+    background-color:#3a9999;
+}
+
+.efeito_5:hover{
+    transform: skew(-10deg);
+}
+
+#img{
+    width: 30px;
+    height: 30px;
+}
+
+#sec1{
+    width: 1100px;
+    height: 200px;
+    background-color: #19F4E7;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#img2{
+    width: 200px;
+    height: 200px;
+}
+
+#art1{
+    padding: 10px;
+    text-align: start;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#art2{
+    width: 500px;
+    display: flex;
+    flex-flow:column nowrap;
+}
+
+@media(max-width: 800px){
+    main{
+        width: 320px;
+        height: 810px;
+    }
+}
+
+@media(max-width: 800px){
+   #sec1{width: 280px;
+    height: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #19F4E7;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+   }
+}
+
+@media(max-width:800px){
+    #img2{
+        display: none;
+    }
+}
+
+@media(max-width:800px){
+    #art1{
+        padding: 10px;
+        text-align: start;
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:800px){
+    h2{font-size: 20px;}
+}
+
+@media(max-width:800px){
+    #p1{font-size: 15px;}
+}
+
+@media(max-width:800px){
+    #btn{
+        width: 150px;
+        height: 70px;
+        margin: 0 auto;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+}

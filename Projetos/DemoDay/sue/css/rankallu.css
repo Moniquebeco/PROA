@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    color: #19F4E7;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+body{
+    background-color: #020814;
+}
+
+.bg-azul {
+    background-color: #19F4E7 !important;
+}
+
+.p{
+    height: 10px;
+    color: black;
+}
+
+.p:hover{
+    color: blanchedalmond;
+}
+
+.img2{
+    width: 50px;
+    height: 50px;
+}
+
+#titulo{
+    text-align: center;
+}
+
+#art1{
+    width: 880px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 220px;
+    margin-bottom: 5px;
+}
+
+#h4_1{
+    width: 800px;
+    height: 30px;
+    background-color: #FFE664;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#h4_2{
+    width: 800px;
+    height: 30px;
+    background-color: #E5D5D5;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#h4_3{
+    width: 800px;
+    height: 30px;
+    background-color: #DE8C50;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+#art2{
+    width: 880px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 220px;
+    margin-bottom: 5px;
+}
+
+#art3{
+    width: 880px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 220px;
+    margin-bottom: 5px;
+}
+
+#art4{
+    width: 800px;
+    height: 30px;
+    background-color:#19F4E7;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    margin-left: 298px;
+    text-align: center;
+}
+
+#img{
+    width: 30px;
+    height: 30px;
+}
+
+#sec1{
+    height: 590px;
+    background-color: #020814;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.img3{
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+} 
+
+@media(max-width:800px){
+    #sec1{
+        width:320px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column nowrap;
+    };
+}
+
+@media(max-width:800px){
+    .img2{ display:none;}
+}
+
+@media(max-width:800px){
+    #titulo{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:800px){
+    .img3{
+        display:none;
+    }
+}
+
+@media(max-width:800px){
+    .art{
+        width: 250px;
+        margin-left: 35px;
+    }
+}
+
+@media(max-width:800px){
+    #art1{
+        width: 250px;
+        margin-left: 35px;
+    }
+}
+
+@media(max-width:800px){
+    #art2{
+        width: 250px;
+        margin-left: 35px;
+    }
+}
+
+@media(max-width:800px){
+    #art3{
+        width: 250px;
+        margin-left: 35px;
+    }
+}
+
+@media(max-width:800px){
+    #art4{
+        width: 250px;
+        margin-left: 35px;
+    }
+}
+

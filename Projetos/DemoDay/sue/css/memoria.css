@@ -1,0 +1,124 @@
+@keyframes bounce {
+    0%,  20%, 60%,  100%{
+        -webkit-transform:  translateY(0);
+        transform: translateY(0);
+    }
+    40%{
+       -webkit-transform:  translateY(-20px);
+        transform: translateY(-20px);
+    }
+    80%{
+       -webkit-transform:  translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: steelblue;
+    text-align: center;
+}
+
+.btns{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.efeito{
+    border: none;
+    color:#ffffff;
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.efeito_4{
+    background-color: #19F4E7;
+}
+
+.efeito_4:hover{
+    animation: bounce 1s;
+}
+
+.card{
+    width: 160px;
+    height: 240px;
+    position: absolute;
+    border-radius: 10px;
+    perspective: 600px;
+}
+
+.face{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    transition: all 1s;
+    backface-visibility: hidden;
+}
+
+.back{
+    background: url("../img/cardback.jpg");
+}
+
+.card:hover{
+    box-shadow: 0 0 10px mintcream;
+}
+
+.back.flipped{
+    transform: rotateY(180deg);
+}
+
+.front{
+    transform: rotateY(-180deg);
+}
+
+.front.flipped{
+    transform: rotateY(0deg);
+}
+
+.face.flipped.match{
+    box-shadow: 0 0 10px #0f0;
+}
+
+#container{
+    width: 1325px;
+    height: 495px;
+    border: 1px solid #111;
+    position: relative;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: teal;
+}
+
+#modalGameOver{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: -2;
+}
+
+#imgGameOver{
+    margin-top: 100px;
+}
+
+#imgMatchSign{
+    position: relative;
+    top: 250px;
+    transition-property: top, opacity;
+    transition-duration: 1.5s;
+    opacity: 1;
+    z-index: -1;
+}
